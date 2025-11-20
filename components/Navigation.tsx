@@ -54,7 +54,7 @@ export default function Navigation() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-black/95 backdrop-blur-md shadow-md shadow-amber-500/20"
+          ? "bg-black/95 backdrop-blur-md shadow-md shadow-rose-500/20"
           : "bg-transparent"
       }`}
     >
@@ -63,7 +63,7 @@ export default function Navigation() {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection("hero")}
-              className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-amber-400 to-yellow-400 bg-clip-text text-transparent hover:from-amber-500 hover:to-yellow-500 transition-all"
+              className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-rose-400 to-pink-400 bg-clip-text text-transparent hover:from-rose-500 hover:to-pink-500 transition-all"
             >
               Portfolio
             </button>
@@ -76,7 +76,7 @@ export default function Navigation() {
                 <button
                   key={link.id}
                   onClick={() => scrollToSection(link.id)}
-                  className="text-gray-300 hover:text-amber-400 px-3 py-2 text-sm font-medium transition-colors"
+                  className="text-gray-300 hover:text-rose-400 px-3 py-2 text-sm font-medium transition-colors"
                 >
                   {link.label}
                 </button>
@@ -92,7 +92,7 @@ export default function Navigation() {
             <DarkModeToggle />
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-gray-300 hover:text-amber-400 p-2 transition-colors"
+              className="text-gray-300 hover:text-rose-400 p-2 transition-colors"
               aria-label="Toggle menu"
               aria-expanded={isMobileMenuOpen}
             >
@@ -117,7 +117,7 @@ export default function Navigation() {
             <button
               key={link.id}
               onClick={() => scrollToSection(link.id)}
-              className="text-left text-gray-300 hover:text-amber-400 px-4 py-3 text-lg font-medium transition-colors border-b border-gray-800"
+              className="text-left text-gray-300 hover:text-rose-400 px-4 py-3 text-lg font-medium transition-colors border-b border-gray-800"
             >
               {link.label}
             </button>

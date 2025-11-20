@@ -180,10 +180,10 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation>
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-amber-400 to-yellow-400 bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-rose-400 to-pink-400 bg-clip-text text-transparent">
               Get In Touch
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-yellow-500 mx-auto mb-4"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-rose-500 to-pink-500 mx-auto mb-4"></div>
             <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto px-4">
               Have a project in mind or want to collaborate? I'd love to hear from
               you. Let's create something amazing together.
@@ -194,8 +194,8 @@ export default function Contact() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           {/* Contact Form */}
           <ScrollAnimation delay={100}>
-            <div className="bg-gray-900 border border-amber-500/30 rounded-2xl p-6 sm:p-8 shadow-xl shadow-amber-500/10">
-            <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-amber-400">
+            <div className="bg-gray-900 border border-rose-500/30 rounded-2xl p-6 sm:p-8 shadow-xl shadow-rose-500/10">
+            <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-rose-400">
               Send me a message
             </h3>
             <form onSubmit={handleSubmit} className="space-y-6" noValidate>
@@ -213,7 +213,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   onBlur={handleBlur}
-                  className={`w-full px-4 py-3 rounded-lg border bg-black border-amber-500/30 text-white focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-all ${
+                  className={`w-full px-4 py-3 rounded-lg border bg-black border-rose-500/30 text-white focus:ring-2 focus:ring-rose-500 focus:border-rose-500 transition-all ${
                     errors.name && touched.name
                       ? "border-red-500 focus:ring-red-500"
                       : ""
@@ -246,7 +246,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   onBlur={handleBlur}
-                  className={`w-full px-4 py-3 rounded-lg border bg-black border-amber-500/30 text-white focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-all ${
+                  className={`w-full px-4 py-3 rounded-lg border bg-black border-rose-500/30 text-white focus:ring-2 focus:ring-rose-500 focus:border-rose-500 transition-all ${
                     errors.email && touched.email
                       ? "border-red-500 focus:ring-red-500"
                       : ""
@@ -291,7 +291,7 @@ export default function Contact() {
                   onBlur={handleBlur}
                   rows={5}
                   maxLength={1000}
-                  className={`w-full px-4 py-3 rounded-lg border bg-black border-amber-500/30 text-white focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-all resize-none ${
+                  className={`w-full px-4 py-3 rounded-lg border bg-black border-rose-500/30 text-white focus:ring-2 focus:ring-rose-500 focus:border-rose-500 transition-all resize-none ${
                     errors.message && touched.message
                       ? "border-red-500 focus:ring-red-500"
                       : ""
@@ -315,7 +315,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full px-8 py-4 bg-gradient-to-r from-amber-500 to-yellow-500 text-black rounded-lg font-semibold text-lg hover:from-amber-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl shadow-amber-500/50 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:hover:shadow-lg"
+                className="w-full px-8 py-4 bg-gradient-to-r from-rose-500 to-pink-500 text-white rounded-lg font-semibold text-lg hover:from-rose-600 hover:to-pink-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl shadow-rose-500/50 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:hover:shadow-lg"
               >
                 {isSubmitting ? (
                   <span className="flex items-center justify-center">
@@ -391,7 +391,7 @@ export default function Contact() {
           <ScrollAnimation delay={200}>
             <div className="space-y-4 sm:space-y-6">
             <div>
-              <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-amber-400">
+              <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-rose-400">
                 Contact Information
               </h3>
               <p className="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 leading-relaxed">
@@ -408,13 +408,13 @@ export default function Contact() {
                   href={info.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center p-4 bg-gray-900 border border-amber-500/30 rounded-lg hover:bg-gray-800 hover:border-amber-500/50 transition-all group"
+                  className="flex items-center p-4 bg-gray-900 border border-rose-500/30 rounded-lg hover:bg-gray-800 hover:border-rose-500/50 transition-all group"
                 >
                   <div className="text-3xl mr-4 group-hover:scale-110 transition-transform">
                     {info.icon}
                   </div>
                   <div>
-                    <div className="font-semibold text-amber-400">
+                    <div className="font-semibold text-rose-400">
                       {info.label}
                     </div>
                     <div className="text-gray-300">

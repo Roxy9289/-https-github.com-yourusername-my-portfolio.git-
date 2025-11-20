@@ -47,20 +47,20 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation>
           <div className="text-center mb-8 sm:mb-12">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-amber-400 to-yellow-400 bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-rose-400 to-pink-400 bg-clip-text text-transparent">
               My Projects
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-yellow-500 mx-auto mb-6"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-rose-500 to-pink-500 mx-auto mb-6"></div>
           </div>
         </ScrollAnimation>
 
         <ScrollAnimation delay={50}>
           <div className="text-center mb-12 sm:mb-16 max-w-3xl mx-auto px-4">
-            <h3 className="text-2xl sm:text-3xl font-bold mb-3 text-amber-400">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-3 text-rose-400">
               Meraki Expressions
             </h3>
             <p className="text-base sm:text-lg text-gray-300 mb-2 italic">
-              "Meraki" means <span className="font-semibold text-amber-400">"to do something with soul, creativity, and love"</span>
+              "Meraki" means <span className="font-semibold text-rose-400">"to do something with soul, creativity, and love"</span>
             </p>
             <p className="text-sm sm:text-base text-gray-400">
               This is a motto that we live by. Every project we undertake is infused with passion, creativity, and genuine care.
@@ -71,7 +71,7 @@ export default function Projects() {
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {projects.map((project, index) => (
             <ScrollAnimation key={index} delay={index * 100}>
-              <div className="bg-gray-900 border border-amber-500/30 rounded-xl shadow-lg hover:shadow-2xl hover:shadow-amber-500/20 transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group">
+              <div className="bg-gray-900 border border-rose-500/30 rounded-xl shadow-lg hover:shadow-2xl hover:shadow-rose-500/20 transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group">
               <div className="relative h-48 w-full overflow-hidden">
                 <Image
                   src={project.image}
@@ -83,7 +83,7 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               <div className="p-5 sm:p-6">
-                <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-amber-400">
+                <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-rose-400">
                   {project.title}
                 </h3>
                 <p className="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4 leading-relaxed">
@@ -93,7 +93,7 @@ export default function Projects() {
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="px-3 py-1 bg-black border border-amber-500/50 text-amber-300 text-sm rounded-full font-medium"
+                      className="px-3 py-1 bg-black border border-rose-500/50 text-rose-300 text-sm rounded-full font-medium"
                     >
                       {tech}
                     </span>
@@ -104,7 +104,7 @@ export default function Projects() {
                     href={project.projectUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block w-full text-center px-6 py-3 bg-gradient-to-r from-amber-500 to-yellow-500 text-black rounded-lg font-semibold hover:from-amber-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg shadow-amber-500/50"
+                    className="inline-block w-full text-center px-6 py-3 bg-gradient-to-r from-rose-500 to-pink-500 text-white rounded-lg font-semibold hover:from-rose-600 hover:to-pink-600 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg shadow-rose-500/50"
                   >
                     View Project →
                   </a>
