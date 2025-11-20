@@ -24,7 +24,7 @@ const projects: Project[] = [
     title: "Boujee by Meraki Expressions",
     description:
       "Beauty and Glam Studio. Specialized in eyebrow waxing, laminating and tinting. Makeup for all occasions - weddings, graduations, photoshoots, carnival, etc. Makeup Classes - Basic and Advanced makeup classes. Body Art - Tattoos.",
-    technologies: ["Cosmetology", "Eyebrow Services", "Makeup Artistry", "Beauty Education", "Body Art", "Tattoos"],
+    technologies: ["Cosmetology", "Eyebrow Services", "Makeup Artistry", "Beauty Education", "Body Art - Tattoos"],
     image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop",
     projectUrl: "#",
   },
@@ -42,15 +42,15 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-gray-800"
+      className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-gray-50 via-rose-50 to-amber-50 dark:from-gray-900 dark:to-gray-800"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation>
           <div className="text-center mb-8 sm:mb-12">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-rose-500 to-amber-500 bg-clip-text text-transparent">
               My Projects
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-rose-500 to-amber-500 mx-auto mb-6"></div>
           </div>
         </ScrollAnimation>
 
@@ -93,7 +93,7 @@ export default function Projects() {
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={techIndex}
-                      className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-sm rounded-full font-medium"
+                      className="px-3 py-1 bg-rose-100 dark:bg-rose-900 text-rose-800 dark:text-rose-200 text-sm rounded-full font-medium"
                     >
                       {tech}
                     </span>
@@ -104,7 +104,7 @@ export default function Projects() {
                     href={project.projectUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block w-full text-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
+                    className="inline-block w-full text-center px-6 py-3 bg-gradient-to-r from-rose-500 to-amber-500 text-white rounded-lg font-semibold hover:from-rose-600 hover:to-amber-600 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-lg"
                   >
                     View Project →
                   </a>

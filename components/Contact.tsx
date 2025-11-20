@@ -180,10 +180,10 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation>
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-rose-500 to-amber-500 bg-clip-text text-transparent">
               Get In Touch
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-4"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-rose-500 to-amber-500 mx-auto mb-4"></div>
             <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto px-4">
               Have a project in mind or want to collaborate? I'd love to hear from
               you. Let's create something amazing together.
@@ -194,7 +194,7 @@ export default function Contact() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           {/* Contact Form */}
           <ScrollAnimation delay={100}>
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-600 rounded-2xl p-6 sm:p-8 shadow-xl">
+            <div className="bg-gradient-to-br from-rose-50 via-gray-50 to-amber-50 dark:from-gray-700 dark:to-gray-600 rounded-2xl p-6 sm:p-8 shadow-xl">
             <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-white">
               Send me a message
             </h3>
@@ -213,7 +213,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   onBlur={handleBlur}
-                  className={`w-full px-4 py-3 rounded-lg border bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all ${
+                  className={`w-full px-4 py-3 rounded-lg border bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-rose-500 focus:border-transparent transition-all ${
                     errors.name && touched.name
                       ? "border-red-500 dark:border-red-500 focus:ring-red-500"
                       : "border-gray-300 dark:border-gray-600"
@@ -246,7 +246,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   onBlur={handleBlur}
-                  className={`w-full px-4 py-3 rounded-lg border bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all ${
+                  className={`w-full px-4 py-3 rounded-lg border bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-rose-500 focus:border-transparent transition-all ${
                     errors.email && touched.email
                       ? "border-red-500 dark:border-red-500 focus:ring-red-500"
                       : "border-gray-300 dark:border-gray-600"
@@ -315,7 +315,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold text-lg hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:hover:shadow-lg"
+                className="w-full px-8 py-4 bg-gradient-to-r from-rose-500 to-amber-500 text-white rounded-lg font-semibold text-lg hover:from-rose-600 hover:to-amber-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:hover:shadow-lg"
               >
                 {isSubmitting ? (
                   <span className="flex items-center justify-center">

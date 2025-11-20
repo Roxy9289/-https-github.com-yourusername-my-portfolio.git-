@@ -22,10 +22,10 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation>
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-rose-500 to-amber-500 bg-clip-text text-transparent">
               About Me
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-rose-500 to-amber-500 mx-auto"></div>
           </div>
         </ScrollAnimation>
 
@@ -45,7 +45,7 @@ export default function About() {
           </ScrollAnimation>
 
           <ScrollAnimation delay={200}>
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-600 rounded-2xl p-6 sm:p-8 shadow-xl">
+            <div className="bg-gradient-to-br from-rose-50 via-gray-50 to-amber-50 dark:from-gray-700 dark:to-gray-600 rounded-2xl p-6 sm:p-8 shadow-xl">
               <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-white">
                 Skills & Technologies
               </h3>

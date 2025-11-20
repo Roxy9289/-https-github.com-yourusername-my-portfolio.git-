@@ -63,7 +63,7 @@ export default function Navigation() {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection("hero")}
-              className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:from-blue-700 hover:to-purple-700 transition-all"
+              className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-rose-500 to-amber-500 bg-clip-text text-transparent hover:from-rose-600 hover:to-amber-600 transition-all"
             >
               Portfolio
             </button>
@@ -76,7 +76,7 @@ export default function Navigation() {
                 <button
                   key={link.id}
                   onClick={() => scrollToSection(link.id)}
-                  className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors"
+                  className="text-gray-700 dark:text-gray-300 hover:text-rose-600 dark:hover:text-rose-400 px-3 py-2 text-sm font-medium transition-colors"
                 >
                   {link.label}
                 </button>
@@ -92,7 +92,7 @@ export default function Navigation() {
             <DarkModeToggle />
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 p-2 transition-colors"
+              className="text-gray-700 dark:text-gray-300 hover:text-rose-600 dark:hover:text-rose-400 p-2 transition-colors"
               aria-label="Toggle menu"
               aria-expanded={isMobileMenuOpen}
             >
