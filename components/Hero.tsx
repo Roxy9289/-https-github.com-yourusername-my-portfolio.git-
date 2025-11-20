@@ -13,55 +13,55 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-rose-400 via-pink-400 to-amber-500 dark:from-rose-900 dark:via-pink-900 dark:to-amber-900 relative overflow-hidden pt-16"
+      className="min-h-screen flex items-center justify-center bg-black relative overflow-hidden pt-16"
     >
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-rose-300 dark:bg-rose-900 rounded-full mix-blend-multiply dark:mix-blend-soft-light filter blur-xl opacity-70 animate-blob"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-amber-300 dark:bg-amber-900 rounded-full mix-blend-multiply dark:mix-blend-soft-light filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-pink-300 dark:bg-pink-900 rounded-full mix-blend-multiply dark:mix-blend-soft-light filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-amber-500/20 rounded-full mix-blend-soft-light filter blur-xl opacity-50 animate-blob"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-yellow-500/20 rounded-full mix-blend-soft-light filter blur-xl opacity-50 animate-blob animation-delay-2000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-amber-400/10 rounded-full mix-blend-soft-light filter blur-xl opacity-50 animate-blob animation-delay-4000"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 lg:py-32 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
           {/* Profile Picture */}
-          <div className="animate-fade-in order-2 lg:order-1">
-            <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden border-4 border-white/30 shadow-2xl ring-4 ring-amber-200/50 dark:ring-amber-800/50">
+          <div className="animate-fade-in order-2 lg:order-1 w-full lg:w-2/5">
+            <div className="relative w-full aspect-[3/4] max-w-md mx-auto lg:max-w-none lg:h-[80vh] rounded-lg overflow-hidden border-2 border-amber-500/30 shadow-2xl shadow-amber-500/20">
               <Image
                 src="/profile.jpg"
                 alt="Roxanne Lyons-Richards"
                 fill
                 className="object-cover"
                 priority
-                sizes="(max-width: 768px) 192px, (max-width: 1024px) 224px, 288px"
+                sizes="(max-width: 1024px) 100vw, 40vw"
               />
             </div>
           </div>
 
           {/* Text Content */}
-          <div className="text-center lg:text-left flex-1 order-1 lg:order-2">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4 sm:mb-6 bg-gradient-to-r from-white via-rose-100 to-amber-100 bg-clip-text text-transparent animate-fade-in drop-shadow-lg px-4">
+          <div className="text-center lg:text-left flex-1 lg:w-3/5 order-1 lg:order-2">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-4 sm:mb-6 bg-gradient-to-r from-amber-200 via-amber-400 to-yellow-400 bg-clip-text text-transparent animate-fade-in drop-shadow-lg px-4">
               Hi, I'm{" "}
               <span className="block mt-2 font-bold italic tracking-wide" style={{ fontFamily: "'Playfair Display', serif" }}>
                 Roxanne Lyons-Richards
               </span>
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl text-white mb-6 sm:mb-8 max-w-3xl lg:mx-0 mx-auto animate-fade-in-delay drop-shadow-md px-4">
+            <p className="text-lg sm:text-xl md:text-2xl text-amber-100 mb-6 sm:mb-8 max-w-3xl lg:mx-0 mx-auto animate-fade-in-delay drop-shadow-md px-4">
               Educator, Business Owner, Entrepreneur & Creative Developer
             </p>
-            <p className="text-base sm:text-lg text-rose-50 mb-8 sm:mb-12 max-w-2xl lg:mx-0 mx-auto animate-fade-in-delay-2 drop-shadow-sm px-4">
+            <p className="text-base sm:text-lg text-gray-300 mb-8 sm:mb-12 max-w-2xl lg:mx-0 mx-auto animate-fade-in-delay-2 drop-shadow-sm px-4">
               I'm an innovative entrepreneur with a passion for learning and expressing ideas creatively. Currently learning to build modern web applications with AI and Next.js.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start animate-fade-in-delay-3 px-4">
               <button
                 onClick={() => scrollToSection("projects")}
-                className="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-rose-500 to-amber-500 text-white rounded-lg font-semibold text-base sm:text-lg hover:from-rose-600 hover:to-amber-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+                className="px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-amber-500 to-yellow-500 text-black rounded-lg font-semibold text-base sm:text-lg hover:from-amber-600 hover:to-yellow-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl shadow-amber-500/50"
               >
                 View My Work
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
-                className="px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-md text-white border-2 border-white/30 rounded-lg font-semibold text-base sm:text-lg hover:bg-white/20 hover:border-white/50 transform hover:scale-105 transition-all duration-300 shadow-lg"
+                className="px-6 sm:px-8 py-3 sm:py-4 bg-black/50 backdrop-blur-md text-amber-400 border-2 border-amber-500/50 rounded-lg font-semibold text-base sm:text-lg hover:bg-amber-500/10 hover:border-amber-400 transform hover:scale-105 transition-all duration-300 shadow-lg shadow-amber-500/20"
               >
                 Get In Touch
               </button>
