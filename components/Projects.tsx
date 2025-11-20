@@ -13,28 +13,28 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "E-Commerce Platform",
+    title: "Meraki Expressions Interior Design",
     description:
-      "A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard. Built with modern web technologies for optimal performance and seamless user experience.",
-    technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-    projectUrl: "https://demo.com",
+      "Interior Design, Decorating and Renovations. We renovate and design your interior space to meet your functional and aesthetic needs. Creating beautiful, personalized spaces with soul, creativity, and love.",
+    technologies: ["Interior Design", "Space Planning", "Renovations", "Decorating"],
+    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+    projectUrl: "#",
   },
   {
-    title: "Task Management App",
+    title: "Boujee by Meraki Expressions",
     description:
-      "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Streamline your workflow with intuitive design.",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-    projectUrl: "https://demo.com",
+      "Beauty and Glam Studio. Specialized in eyebrow waxing, laminating and tinting. Makeup for all occasions - weddings, graduations, photoshoots, carnival, etc. Makeup Classes - Basic and Advanced makeup classes. Body Art - Tattoos.",
+    technologies: ["Cosmetology", "Eyebrow Services", "Makeup Artistry", "Beauty Education", "Body Art", "Tattoos"],
+    image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=600&fit=crop",
+    projectUrl: "#",
   },
   {
-    title: "Weather Dashboard",
+    title: "Boujee Online Retail Store",
     description:
-      "A beautiful weather dashboard that displays current conditions and forecasts. Features interactive maps, detailed weather analytics, and location-based insights.",
-    technologies: ["React", "Chart.js", "Weather API", "Tailwind CSS"],
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
-    projectUrl: "https://demo.com",
+      "We cater to our Boujee Kings and Queens. Offering a curated selection of clothing, accessories, perfumes, and cologne. Your one-stop shop for all things boujee and stylish.",
+    technologies: ["E-Commerce", "Retail", "Fashion", "Accessories", "Fragrances"],
+    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop",
+    projectUrl: "#",
   },
 ];
 
@@ -46,14 +46,24 @@ export default function Projects() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation>
-          <div className="text-center mb-12 sm:mb-16">
+          <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               My Projects
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-4"></div>
-            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto px-4">
-              Here are some of my recent projects. Each one represents a unique
-              challenge and learning experience.
+            <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6"></div>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation delay={50}>
+          <div className="text-center mb-12 sm:mb-16 max-w-3xl mx-auto px-4">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-3 text-gray-900 dark:text-white">
+              Meraki Expressions
+            </h3>
+            <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 mb-2 italic">
+              "Meraki" means <span className="font-semibold">"to do something with soul, creativity, and love"</span>
+            </p>
+            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
+              This is a motto that we live by. Every project we undertake is infused with passion, creativity, and genuine care.
             </p>
           </div>
         </ScrollAnimation>

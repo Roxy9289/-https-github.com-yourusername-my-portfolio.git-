@@ -143,20 +143,32 @@ export default function Contact() {
     {
       icon: "📧",
       label: "Email",
-      value: "your.email@example.com",
-      link: "mailto:your.email@example.com",
+      value: "Merakiexpressions868@gmail.com",
+      link: "mailto:Merakiexpressions868@gmail.com",
     },
     {
-      icon: "💼",
-      label: "LinkedIn",
-      value: "linkedin.com/in/yourprofile",
-      link: "https://linkedin.com",
+      icon: "📱",
+      label: "Phone",
+      value: "749-9090",
+      link: "tel:7499090",
     },
     {
-      icon: "🐙",
+      icon: "📷",
+      label: "Instagram",
+      value: "@meraki_expressions",
+      link: "https://instagram.com/meraki_expressions",
+    },
+    {
+      icon: "👥",
+      label: "Facebook",
+      value: "Meraki Expressions",
+      link: "https://facebook.com/MerakiExpressions",
+    },
+    {
+      icon: "💻",
       label: "GitHub",
-      value: "github.com/yourusername",
-      link: "https://github.com",
+      value: "github.com/Roxy9289",
+      link: "https://github.com/Roxy9289",
     },
   ];
 

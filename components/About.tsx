@@ -4,14 +4,14 @@ import ScrollAnimation from "./ScrollAnimation";
 
 export default function About() {
   const skills = [
-    "React",
+    "Interior Design",
+    "Decorating",
+    "Cosmetology",
+    "Web Development",
     "Next.js",
-    "TypeScript",
-    "Node.js",
-    "Tailwind CSS",
-    "Python",
-    "PostgreSQL",
-    "Git",
+    "AI Development",
+    "React",
+    "JavaScript",
   ];
 
   return (
@@ -33,21 +33,13 @@ export default function About() {
           <ScrollAnimation delay={100}>
             <div className="space-y-4 sm:space-y-6">
               <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                I'm a passionate full-stack developer with a love for creating
-                elegant solutions to complex problems. With a strong foundation in
-                modern web technologies, I bring ideas to life through clean code
-                and thoughtful design.
+                Hello, my name is Roxanne Lyons-Richards. I am an Educator, a business owner and an innovative entrepreneur with a passion for learning and expressing my ideas creatively.
               </p>
               <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community. I believe in continuous learning and
-                staying up-to-date with the latest industry trends.
+                With a diverse background spanning interior design, cosmetology, and web development, I bring a unique creative perspective to everything I do. I'm constantly exploring new ways to combine my artistic talents with cutting-edge technology.
               </p>
               <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                My goal is to build applications that not only look great but also
-                provide exceptional user experiences and solve real-world
-                problems.
+                Currently, I'm learning to build modern web applications with AI and Next.js, combining my creative vision with technical skills to bring innovative ideas to life. My goal is to create beautiful, functional solutions that make a meaningful impact.
               </p>
             </div>
           </ScrollAnimation>

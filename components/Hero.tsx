@@ -24,14 +24,13 @@ export default function Hero() {
         <div className="text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent animate-fade-in drop-shadow-lg px-4">
             Hi, I'm{" "}
-            <span className="block mt-2">Roxanne Lyons</span>
+            <span className="block mt-2">Roxanne Lyons-Richards</span>
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-white mb-6 sm:mb-8 max-w-3xl mx-auto animate-fade-in-delay drop-shadow-md px-4">
-            Web Developer & AI-Powered Builder
+            Educator, Business Owner, Entrepreneur & Creative Developer
           </p>
           <p className="text-base sm:text-lg text-blue-100 mb-8 sm:mb-12 max-w-2xl mx-auto animate-fade-in-delay-2 drop-shadow-sm px-4">
-            I'm learning to build modern, innovative web applications with AI and Next.js. 
-            Transforming ideas into digital experiences, one line of code at a time.
+            I'm an innovative entrepreneur with a passion for learning and expressing ideas creatively. Currently learning to build modern web applications with AI and Next.js.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center animate-fade-in-delay-3 px-4">
             <button

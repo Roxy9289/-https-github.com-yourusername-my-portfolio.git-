@@ -1,28 +1,28 @@
 "use client";
 
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Instagram, Facebook, Github } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
     {
+      name: "Instagram",
+      icon: Instagram,
+      url: "https://instagram.com/meraki_expressions",
+      color: "hover:text-pink-400",
+    },
+    {
+      name: "Facebook",
+      icon: Facebook,
+      url: "https://facebook.com/MerakiExpressions",
+      color: "hover:text-blue-400",
+    },
+    {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com",
+      url: "https://github.com/Roxy9289",
       color: "hover:text-gray-300",
-    },
-    {
-      name: "LinkedIn",
-      icon: Linkedin,
-      url: "https://linkedin.com",
-      color: "hover:text-blue-400",
-    },
-    {
-      name: "Twitter",
-      icon: Twitter,
-      url: "https://twitter.com",
-      color: "hover:text-blue-400",
     },
   ];
 
@@ -31,7 +31,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-gray-400 text-sm">
-            © {currentYear} My Portfolio. Built with Next.js and Tailwind CSS.
+            © {currentYear} Meraki Expressions. Built with Next.js and Tailwind CSS.
           </div>
           
           <div className="flex items-center space-x-6">
