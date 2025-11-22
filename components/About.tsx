@@ -33,7 +33,7 @@ export default function About() {
           <ScrollAnimation delay={100}>
             <div className="space-y-4 sm:space-y-6">
               <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                Hello, my name is Roxanne Lyons-Richards. I am an Educator, a business owner and an innovative entrepreneur with a passion for learning and expressing my ideas creatively.
+                Hello, my name is Roxanne Lyons-Richards. I am an Educator, Business Owner and Innovative Entrepreneur with a passion for learning and expressing my ideas creatively.
               </p>
               <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
                 With a diverse background spanning interior design, cosmetology, and web development, I bring a unique creative perspective to everything I do. I'm constantly exploring new ways to combine my artistic talents with cutting-edge technology.
