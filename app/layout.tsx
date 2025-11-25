@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Personal portfolio website showcasing my projects and skills",
+  title: "meraki_expressions.tt",
+  description: "Portfolio of Roxanne Lyons-Richards - Educator, Business Owner, Entrepreneur & Creative Developer. Showcasing Meraki Expressions projects and skills.",
 };
 
 export default function RootLayout({

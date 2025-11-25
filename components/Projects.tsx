@@ -60,11 +60,14 @@ export default function Projects() {
     {
       name: "Eyebrow Services",
       photos: [
+        // Eyebrow Lamination
         "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=400&h=400&fit=crop",
         "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=400&fit=crop",
         "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=400&h=400&fit=crop",
+        // Eyebrow Waxing
         "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=400&fit=crop",
         "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=400&fit=crop",
+        // Eyebrow Tinting
         "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=400&h=400&fit=crop",
         "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=400&fit=crop",
         "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=400&h=400&fit=crop",
@@ -86,13 +89,16 @@ export default function Projects() {
     {
       name: "Beauty Educator",
       photos: [
+        // Full Classes - Group Tutorials
         "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=400&h=400&fit=crop",
         "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=400&fit=crop",
         "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=400&h=400&fit=crop",
         "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=400&fit=crop",
+        // Individual Classes - One-on-One Tutorials
         "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=400&h=400&fit=crop",
         "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=400&fit=crop",
         "https://images.unsplash.com/photo-1571875257727-256c39da42af?w=400&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&h=400&fit=crop",
       ],
     },
     {
